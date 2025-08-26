@@ -1,0 +1,141 @@
+/* Reset */
+* {margin:0; padding:0; box-sizing:border-box; font-family:Arial,sans-serif;}
+body {background:#121212; color:#e0e0e0; line-height:1.6;}
+
+/* Navbar */
+.navbar {background:#1f1f1f; padding:1rem; position:sticky; top:0; z-index:100;}
+.nav-links {display:flex; justify-content:center; list-style:none;}
+.nav-links li {margin:0 1rem;}
+.nav-links a {color:#e0e0e0; text-decoration:none; font-weight:bold; transition:0.3s;}
+.nav-links a:hover {color:#00bfff;}
+
+/* Sections */
+.section {padding:3rem 2rem; max-width:1200px; margin:0 auto;}
+.section h2 {margin-bottom:2rem; color:#00bfff; text-align:center;}
+
+/* Intro */
+#intro {text-align:center; margin:3rem 0;}
+.intro-box {display:inline-block; padding:2rem; border-radius:10px; background:#1f1f1f; transition:0.3s;}
+.intro-box:hover {box-shadow: 0 0 20px #00bfff;}
+#intro h1 {font-size:2.5rem; margin-bottom:1rem; color:#00bfff;}
+#intro p {font-size:1.2rem; margin-bottom:1rem;}
+
+/* Skills */
+.skills-container {display:flex; justify-content:space-between; flex-wrap:wrap; gap:2rem;}
+.skill-category {flex:1; min-width:300px;}
+.skill-category h3 {margin-bottom:1rem; color:#1e90ff;} /* improved color */
+.skill {margin-bottom:1rem;}
+.progress-bar {background:#2a2a2a; height:15px; border-radius:10px; overflow:hidden;} /* thinner */
+.progress {height:100%; border-radius:10px; transition:0.3s;}
+.progress.html {background:#ff5722;}
+.progress.css {background:#2979ff;}
+.progress.js {background:#fbc02d;}
+.progress.react {background:#61dafb;}
+.progress.node {background:#3c873a;}
+.progress.python {background:#306998;}
+.progress.sql {background:#f29111;}
+
+/* Projects */
+/* Projects */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project-card {
+  background: #1f1f1f; /* the box color */
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center; /* centers the content inside */
+}
+
+.project-card i {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.project-card h3 {
+  color: #00bfff;
+  margin: 0.5rem 0;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* Project Buttons Centered */
+.project-buttons {
+  display: flex;
+  justify-content: center; /* centers buttons horizontally */
+  gap: 0.5rem; /* space between buttons */
+  margin-top: 1rem;
+}
+
+.project-buttons a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #00bfff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.project-buttons a:hover {
+  background: #0080ff;
+}
+
+
+/* Education */
+.edu-box {background:#1f1f1f; padding:1.5rem; border-radius:10px; max-width:700px; margin:0 auto; text-align:left;}
+.edu-box ul {list-style:disc inside;}
+.edu-box li {margin-bottom:0.8rem;}
+
+/* Achievements */
+.achievements-container {display:flex; justify-content:center; flex-wrap:wrap; gap:2rem; margin-top:2rem;}
+.achievement {background:#1f1f1f; padding:1rem; border-radius:10px; width:220px; text-align:center; transition:0.3s;}
+.achievement:hover {box-shadow:0 0 15px #00bfff;}
+.achievement i {color:#00bfff; margin-bottom:0.5rem;}
+.achievement h4 {margin:0.5rem 0; color:#00bfff;}
+.achievement p {font-size:0.9rem;}
+
+/* Resume Download */
+/* Resume Download */
+.resume-download {text-align:center; margin-top:2rem;}
+.btn-download {
+  padding:0.8rem 1.5rem;
+  background:#00bfff; /* normal blue */
+  color:#fff;
+  border-radius:5px;
+  text-decoration:none;
+  font-weight:900; /* bold */
+  display:inline-block;
+  transition:0.3s;
+}
+.btn-download:hover {
+  background:#007acc; /* darker blue */
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.7); /* black shadow */
+}
+
+/* Contact */
+form {display:flex; flex-direction:column; max-width:500px; margin:0 auto;}
+form input, form textarea {padding:0.8rem; margin-bottom:1rem; border:none; border-radius:5px; background:#2a2a2a; color:#fff;}
+form button {padding:0.8rem; background:#00bfff; color:#fff; border:none; border-radius:5px; cursor:pointer;}
+form button:hover {background:#0080ff;}
+.social-links {text-align:center; margin-top:1rem;}
+.social-links a {margin:0 0.5rem; color:#fff; transition:0.3s;}
+
+/* Footer */
+footer {text-align:center; padding:1rem; background:#1f1f1f; margin-top:rem;}
+
+/* Media Queries */
+@media(max-width:900px) {
+  .skills-container {flex-direction:column; align-items:center;}
+  .project-card {width:90%;}
+  .edu-box {width:90%;}
+}

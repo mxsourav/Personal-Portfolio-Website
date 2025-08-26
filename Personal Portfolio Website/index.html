@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sourav's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="intro" class="intro">
+    <div class="intro-box">
+      <h1>Hi, I'm Sourav <br> A newbey Web Developer.</h1>
+      <p>Passionate about building dynamic web applications and exploring new technologies.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills / Tech Stack</h2>
+    <div class="skills-container">
+
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skill"><p>HTML</p><div class="progress-bar"><div class="progress html" style="width:85%"></div></div></div>
+        <div class="skill"><p>CSS</p><div class="progress-bar"><div class="progress css" style="width:75%"></div></div></div>
+        <div class="skill"><p>JavaScript</p><div class="progress-bar"><div class="progress js" style="width:95%"></div></div></div>
+        <div class="skill"><p>React</p><div class="progress-bar"><div class="progress react" style="width:70%"></div></div></div>
+      </div>
+
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skill"><p>Node.js</p><div class="progress-bar"><div class="progress node" style="width:65%"></div></div></div>
+        <div class="skill"><p>Python</p><div class="progress-bar"><div class="progress python" style="width:80%"></div></div></div>
+        <div class="skill"><p>SQL</p><div class="progress-bar"><div class="progress sql" style="width:75%"></div></div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <i class="fas fa-folder-open fa-2x" style="color:#00bfff;"></i>
+        <h3>Admission Website</h3>
+        <p>Professional admission management system for student registrations with a user-friendly interface.</p>
+        <div class="project-buttons">
+          <a href="https://mxsourav.github.io/Admission-Website/Admission%20Website/index.html" class="btn" target="_blank">Live Demo</a>
+          <a href="https://github.com/mxsourav/Admission-Website" class="btn" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <i class="fas fa-folder-open fa-2x" style="color:#00bfff;"></i>
+        <h3>Class Routine</h3>
+        <p>Web-based class schedule system to organize daily routines efficiently for students and institutions.</p>
+        <div class="project-buttons">
+          <a href="https://mxsourav.github.io/Class-Routine/Class%20Routine/index.html" class="btn" target="_blank">Live Demo</a>
+          <a href="https://github.com/mxsourav/Class-Routine" class="btn" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <h2>Education & Certifications</h2>
+    <div class="edu-box">
+      <ul>
+        <li><strong>B.Sc in Computer Science</strong> — Scottish Church College (2018–2021)</li>
+        <li><strong>M.Sc in Computer Science</strong> — Jadavpur University (2021–2023)</li>
+        <li><strong>M.Tech in Computer Science</strong> — IIT Kharagpur (2023–2025)</li>
+        <li><strong>Web Development</strong> — Coursera, University of Michigan (2021)</li>
+        <li><strong>Full-Stack Development</strong> — edX, Harvard University (2022)</li>
+        <li><strong>Google IT Automation with Python</strong> — Google Certification (2023)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section">
+    <h2>Achievements / Milestones</h2>
+    <div class="achievements-container">
+      <div class="achievement">
+        <i class="fas fa-trophy fa-2x"></i>
+        <h4>Hackathon Winner</h4>
+        <p>Won 1st place at Inter-College Web Development Hackathon 2023 for building a smart attendance system using React and Node.js.</p>
+      </div>
+      <div class="achievement">
+        <i class="fas fa-award fa-2x"></i>
+        <h4>Recognition</h4>
+        <p>Awarded Best Web Developer of the Year 2023 by the Computer Science Department, Scottish Church College, for projects.</p>
+      </div>
+      <div class="achievement">
+        <i class="fas fa-book fa-2x"></i>
+        <h4>Publication</h4>
+        <p>“Modern JavaScript Frameworks: A Comparative Study” on Medium/Dev.to, covering practical examples and real-world use cases.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog / Resume Section -->
+<section id="blog" class="section">
+  <h2>Technical Writeups & Resume</h2>
+  <div class="resume-download">
+    <a href="https://drive.google.com/uc?export=download&id=1Rgn61X9r9XcJdES_Ouv2S_NZVWn0yQE0" download class="btn-download">Download Resume</a>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+
+<section id="contact" class="section">
+  <h2>Contact & Availability</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+  <div class="social-links">
+    <a href="https://github.com/mxsourav" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+    <a href="https://www.linkedin.com/in/mxsourav" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+    <a href="https://www.x.com/mx_sourav" target="_blank" style="font-size:2.3rem; color:#fff; text-decoration:none;">𝕏</a>
+  </div>
+</section>
+
+
+
+  <footer>
+    <p>© 2025 MaxArtist. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
